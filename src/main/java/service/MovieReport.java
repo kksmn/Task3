@@ -8,6 +8,7 @@ public class MovieReport {
     private MovieRepository movieRepository;
 
     public MovieReport(MovieRepository movieRepository){
+
         this.movieRepository=movieRepository;
     }
 
