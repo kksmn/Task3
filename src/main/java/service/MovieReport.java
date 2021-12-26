@@ -13,6 +13,8 @@ public class MovieReport {
 
     public void generate(){
         List<Movie> movies=movieRepository.findAll();
-        /*generate(movies);*/
+        for(Movie m:movies){
+            System.out.println("Name: "+m.getName()+",genre: "+m.getGenre() );
+        }
     }
 }
