@@ -1,11 +1,9 @@
 package config;
-
 import model.Movie;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import repository.MovieRepository;
 import repository.DbMovieRepository;
-import service.MovieReport;
 
 import java.util.ArrayList;
 import java.util.List;
